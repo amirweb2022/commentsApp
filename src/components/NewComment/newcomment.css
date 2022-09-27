@@ -1,0 +1,32 @@
+.newcomment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #E0E7FF;
+    width: 600px;
+    height: 100%;
+    color: #4338CA;
+    border-radius: 5px;
+    padding: 10px 0;
+}
+.newcomment button {
+    margin-top: 5px;
+    border: none;
+    background-color: #4338CA;
+    color: #fff;
+    padding: 5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input {
+    outline: none;
+    border: 1px solid #4338CA;
+    padding: 5px 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: #4338CA;
+}
+input:focus {
+    border: 2px solid #4338CA;
+}

@@ -1,0 +1,15 @@
+.comment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #e0e7ff;
+  width: 200px;
+  height: 200px;
+  color: #4338ca;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.comment p span {
+  font-weight: bold;
+}
