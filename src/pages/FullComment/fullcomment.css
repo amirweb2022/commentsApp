@@ -4,14 +4,18 @@
   align-items: center;
   flex-direction: column;
   background: #e0e7ff;
-  width: 600px;
   height: 100%;
   color: #4338ca;
   border-radius: 5px;
-  margin: 20px 0;
 }
 .fullComment p span {
   font-weight: bold;
+}
+p {
+  margin-top: 20px;
+}
+h2 {
+  margin-top: 10px;
 }
 .fullComment button {
   margin-bottom: 20px;
@@ -21,4 +25,5 @@
   border-radius: 5px;
   padding: 5px 10px;
   cursor: pointer;
+  margin-top: 20px;
 }

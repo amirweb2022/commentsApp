@@ -1,9 +1,6 @@
 section {
+  margin-top: 20px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-}
-
-main {
-  padding: 2rem;
 }

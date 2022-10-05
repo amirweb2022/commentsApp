@@ -4,11 +4,13 @@
     align-items: center;
     flex-direction: column;
     background: #E0E7FF;
-    width: 600px;
     height: 100%;
     color: #4338CA;
     border-radius: 5px;
     padding: 10px 0;
+}
+h2 {
+    margin-bottom: 20px;
 }
 .newcomment button {
     margin-top: 5px;
