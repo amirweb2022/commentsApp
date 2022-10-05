@@ -2,9 +2,8 @@ import { useEffect } from "react";
 import "./fullcomment.css";
 import { getOneCommet } from "../../services/getOneCommentService";
 import { deleteOneCommet } from "../../services/delteOneCommentService";
-import { getAllComments } from "../../services/getAllCommentsService";
 import { useState } from "react";
-const FullComment = ({ setComments, setSelectId, match }) => {
+const FullComment = ({ match, history }) => {
   const commentId = match.params.id;
   const [comment, setComment] = useState(null);
   useEffect(() => {
@@ -21,10 +20,8 @@ const FullComment = ({ setComments, setSelectId, match }) => {
     if (commentId) {
       try {
         await deleteOneCommet(commentId);
-        const { data } = await getAllComments();
-        setComments(data);
+        history.push("/");
         setComment(null);
-        setSelectId(null);
       } catch (error) {
         console.log(error);
       }

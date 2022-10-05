@@ -8,13 +8,6 @@
       "postId": 1
     },
     {
-      "name": "hossein",
-      "email": "asdsad@email.com",
-      "body": "asdasd",
-      "postId": 10,
-      "id": 3
-    },
-    {
       "name": "amir",
       "email": "airhz10@gmail.com",
       "body": "this is a comments",
@@ -27,6 +20,13 @@
       "body": "hello",
       "postId": 10,
       "id": 5
+    },
+    {
+      "name": "amirRasooli",
+      "email": "rasooli@gmail.com",
+      "body": "hello amirMohammad rasooli",
+      "postId": 10,
+      "id": 6
     }
   ]
 }
