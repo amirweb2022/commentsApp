@@ -1,9 +1,17 @@
 import './App.css';
-import Discussion from './container/Discussion/Discussion';
+import Layout from './layout/Layout'
+import routes from './routes'
+import { Route, Switch } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <Discussion />
+      <Layout>
+        <Switch>
+          {routes.map((route) => {
+            return <Route {...route} />
+          })}
+        </Switch>
+      </Layout>
     </div>
   );
 }
